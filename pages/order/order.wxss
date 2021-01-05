@@ -1,0 +1,25 @@
+.order_item{
+  border-bottom: 1rpx solid #ccc;
+  padding: 20rpx;
+  color: #666;
+}
+.order_number{
+  display: flex;
+  justify-content: space-between;
+  padding: 10rpx 0;
+}
+.order_price{
+  display: flex;
+  justify-content: space-between;
+  padding: 10rpx 0;
+}
+.price{
+  color: var(--theme-color);
+  font-size: 32rpx;
+}
+
+.create_time{
+  display: flex;
+  justify-content: space-between;
+  padding: 10rpx 0;
+}

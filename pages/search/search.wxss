@@ -1,0 +1,40 @@
+page{
+  background-color: #dedede;
+  padding: 20rpx;
+}
+.search_row input{
+  background-color: #fff;
+  flex: 1;
+  height: 100%;
+  padding-left: 30rpx;
+}
+.search_row{
+  display: flex;
+  height: 60rpx;
+}
+.search_row button{
+  width: 110rpx;
+  padding: 0;
+  display: flex;
+  margin: 0 10rpx;
+  justify-content: center;
+  align-items: center;
+  font-size: 28rpx;
+  color: black;
+  
+}
+button:not([size='mini']) {
+  min-height: 60rpx;
+}
+.search_item{
+  background-color: #fff;
+  font-size: 26rpx;
+  padding: 15rpx 10rpx;
+  border-bottom: 1rpx solid #ccc;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.search_content{
+  margin-top: 20rpx;
+}

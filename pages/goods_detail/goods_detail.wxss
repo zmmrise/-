@@ -1,0 +1,98 @@
+page{
+  padding-bottom: 90rpx;
+}
+.detail_swiper swiper{
+  height: 65vw;
+
+  text-align: center;
+}
+.detail_swiper swiper image{
+  width: 60%;
+}
+.goods_price{
+  padding: 15rpx;
+  font-size: 32rpx;
+  font-weight: 600;
+  color: var(--theme-color);
+}
+.goods_name_row{
+  display: flex;
+  border-top:   5rpx solid #dedede;
+  border-bottom: 5rpx solid #dedede;
+  padding: 10rpx 0;
+}
+.goods_name{
+  flex: 5;
+  color: #000;
+  font-size: 30rpx;
+  padding: 0 10rpx;
+  display: -webkit-box;
+  overflow: hidden;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+}
+.goods_collect{
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-left: 1rpx solid #000;
+}
+
+.goods_info_title{
+  color: var(--theme-color);
+  font-size: 32rpx;
+  padding: 20rpx;
+  border-bottom: 5rpx solid #dedede;
+  font-weight: 600;
+}
+.btm_tool{
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  height: 90rpx;
+  background-color: #fff;
+  display: flex;
+  border-top: 1rpx solid #ccc;
+}
+.tool_item{
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 24rpx;
+  position: relative;
+}
+.tool_item button{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+}
+.btn_cart{
+  color: #fff;
+  background-color: #ffa500;
+  line-height: 90rpx;
+  text-align: center;
+  flex: 2;
+  font-size: 30rpx;
+  font-weight: 600;
+}
+.btn_buy{
+  color: #fff;
+  background-color: #eb4450;
+  line-height: 90rpx;
+  text-align: center;
+  flex: 2;
+  font-size: 30rpx;
+  font-weight: 600;
+}
+.icon-xuanzefukuanfangshicopyx{
+  color: orangered;
+}
